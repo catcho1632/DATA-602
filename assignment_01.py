@@ -21,7 +21,7 @@ print('The average score is ',average)
 ## the "HIGH_SCORE variable is corrected to upper class since variables are case sensitive
 if average >= HIGH_SCORE:
     print('Congratulations!')
-print('That is a great average!')
+    print('That is a great average!')
 
 #Q2
 #The area of a rectangle is the rectangle’s length times its width. Write a program that asks for the length and width of two rectangles and prints to the user the area of both rectangles. 
