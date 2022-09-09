@@ -63,10 +63,3 @@ print(contact)
 
 
 
-
-
-
-#
-contact = {'Henry':'henry@gmail.com', 'Al':'Al@gmail.com'}
-
-
