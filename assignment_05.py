@@ -162,7 +162,7 @@ def exercise13(n):
     
     '''
     # ------ Place code below here \/ \/ \/ ------
-    s = pd.Series(range(0,n), index = pd.Series(pd.date_range(start = '1/1/2010', periods = n)))
+    s = pd.Series(np.random.randint(0,n, size=n), index = pd.Series(pd.date_range(start = '1/1/2010', periods = n)))
     cumsum_s = s.cumsum()
     cumsum_s.plot()
     
